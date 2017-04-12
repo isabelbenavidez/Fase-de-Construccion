@@ -108,6 +108,19 @@ video{
 	width: 900px;
 	height: 900px;
 }
+article#historia,article#estaticas,article#dinamicas,article#pruebas{
+	background: #F2B80D;
+	border-radius: 0em;
+	min-height: 140px;
+	padding: 0.25em;
+	text-align: justify;
+	border: solid;
+	width: 60%;
+	margin: auto;
+	margin-top: 1em;
+	
+}
+
 footer{
 	text-align: right;
 	padding-right: 5px;
