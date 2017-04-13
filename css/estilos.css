@@ -120,10 +120,10 @@ iframe{
 video{
 	margin: auto;
 	width: 900px;
-	height: 900px;
+	min-height: 400px;
 }
 article#historia,article#estaticas,article#dinamicas,article#pruebas{
-	/*background: #F2B80D;*/
+
 	border-radius: 0em;
 	min-height: 140px;
 	padding: 0.25em;
