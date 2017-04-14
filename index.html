@@ -8,8 +8,8 @@
         <meta name="James Alberto Valencia Caicedo" content="Author">
         <meta content="UNAD, Casos de Prueba" name="keywords">
         <title>Software Testing</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
         
     </head>
 
@@ -27,17 +27,32 @@
             </figure>
         </header>
 <!--Menú:-->
-        <nav>
-            <!--Aquí va nuestro menú-->
-            <ul>          
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="lecturas.html">Lecturas</a></li>
-                <li><a href="material.html">Material Multimedia</a></li>
-            </ul>
-            
-
-
-        </nav>
+	<nav id="primary_nav_wrap">
+			<ul>
+			  <li><a href="index.html">Inicio</a></li>
+			  <li><a href="lecturas.html">Lecturas</a>
+				<ul>
+				  <li><a href="lecturas.html#historia">Historia</a></li>
+				  <li><a href="lecturas.html#estaticas">Pruebas Estáticas</a></li>
+				  <li><a href="lecturas.html#dinamicas">Pruebas Dinámicas</a></li>
+				  <li><a href="lecturas.html#tiposdepruebas">Tipos de Pruebas de Software</a></li>
+				  <li><a href="lecturas.html#tecnicas">Técnicas</a></li>
+				</ul>
+			  </li>
+			  <li><a href="material.html">Material Multimedia</a></li>
+			  
+			  <li><a href="autores.html">Autores</a>
+				<ul>
+				  <li><a href="autores.html#autor1">James Alberto Valencia Caicedo</a></li>
+				  <li><a href="autores.html#autor2">Joan Sebastián Pelaez</a></li>
+				  <li><a href="autores.html#autor3">Martha Isabel Benavides</a></li>
+				</ul>
+			  </li>
+			</ul>
+		</nav>
+		
+		
+		
 <!--Sección de contenido. <section> y <article> definen un área única de contenido:-->
         <section id="contenedor">
 <!--Para que el encabezado principal <h1> no pierda relevancia, utilizamos <hgroup> para agregar un nuevo--> 
@@ -51,32 +66,41 @@
                 
                 <section id="principal">
                     <h3>Pruebas de software</h3>
+					<div>
+						<img src="img/pruebas_software.png" width="242" height="214" title="Pruebas de software">
+						</div>
                     <article id="pruebas">
+						
+					 
                         Las pruebas de software (en inglés software testing) son las investigaciones empíricas y técnicas cuyo objetivo es proporcionar información objetiva e independiente sobre la calidad del producto a la parte interesada o stakeholder. Es una actividad más en el proceso de control de calidad.
                         <br>
                         <br>
                         Las pruebas son básicamente un conjunto de actividades dentro del desarrollo de software. Dependiendo del tipo de pruebas, estas actividades podrán ser implementadas en cualquier momento de dicho proceso de desarrollo. Existen distintos modelos de desarrollo de software, así como modelos de pruebas. A cada uno corresponde un nivel distinto de involucramiento en las actividades de desarrollo.
                     </article>
+				
                 </section>
             
             <aside>
-            	<h2>Pasos para realizar casos de prueba/h2>
+            	<h2>Video de prueba falta realizar el propio</h2>
 
-<div class="video-responsive">
-<center>
-   <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ouCWcXlMdkQ" frameborder="0" allowfullscreen></iframe>-->
-   <video controls>
- <source src="Casos_de_prueba.webm" type="video/webm">
-   Tu navegador no implementa el elemento <code>video</code>
-  <source id="webm_src" src="Casos_de_prueba.webm" type='video/webm; codecs="avc1.42E01E, mp4a.40.2"'>    
-</video>
-</center>
-</div>
+				<div class="video-responsive">
+				<center>
+				   <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ouCWcXlMdkQ" frameborder="0" allowfullscreen></iframe>-->
+				   <video controls>
+				 <source src="Casos_de_prueba.webm" type="video/webm">
+				   Tu navegador no implementa el elemento <code>video</code>
+				  <source id="webm_src" src="Casos_de_prueba.webm" type='video/webm; codecs="avc1.42E01E, mp4a.40.2"'>    
+				</video>
+				</center>
+				</div>
             </aside>
         </section>
 <!--Pie de pagina:-->
         <footer>
-            Autor: James Alberto Valencia Caicedo
+           <h4> Autores: </h4>
+			<h5>James Alberto Valencia Caicedo</h5>
+			<h5>Joan Sebastian Pelaez</h5>
+			<h5>Martha Isabel Benavides</h5>
         </footer>
     </body>
 </html>

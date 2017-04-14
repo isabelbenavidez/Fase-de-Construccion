@@ -46,6 +46,8 @@ section#contenedor{
 
 }
 section#principal,aside,div{
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: #005883;
 	border-radius: 0.5em;
 	display: inline-block;
@@ -56,13 +58,8 @@ section#principal,aside,div{
 	width: 100%;
 
 }
-article{
-	background: #005883;
-	border-radius: 0.5em;
-	min-height: 140px;
-	padding: 0.25em;
-	text-align: justify;
-}
+
+
 aside{
 	width: 100%;
 }
@@ -70,12 +67,88 @@ nav{
 	text-align: left;
 	background: #005883;
 	padding-left: 5px;
+	padding-top: 10px;
 	width: 1000px;
-	height: 70px;
+	height: 45px;
 	border: solid;
 	border-color: #ffffff;
 	border-radius-left: 10;
 }
+
+
+#primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color: #F0B429;
+	text-decoration:none;
+	font-weight:700;
+	font-size:17px;
+	line-height:32px;
+	padding:0 15px;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background: #005883;
+	padding:0;
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px;
+	border: 1px solid;
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+
+
+
+
+
 figure{
 	text-align: left;
 	color: #005883;
@@ -95,21 +168,30 @@ li{
 }
 
 a {
-	color: #ffffff;
+	color: #F0B429;
 	text-decoration: none;
 	font-size: 20px;
 
 }
+a: hover{
+	text-shadow: 2px 2px #7b7474;
+}
+    
+
+h3{
+	color : #F0B429;
+}
+
 iframe{
 	border: solid;
 }
 video{
 	margin: auto;
 	width: 900px;
-	height: 900px;
+	min-height: 400px;
 }
-article#historia,article#estaticas,article#dinamicas,article#pruebas{
-	background: #F2B80D;
+article{
+
 	border-radius: 0em;
 	min-height: 140px;
 	padding: 0.25em;
@@ -118,15 +200,23 @@ article#historia,article#estaticas,article#dinamicas,article#pruebas{
 	width: 60%;
 	margin: auto;
 	margin-top: 1em;
+	padding: 10px;
+	background-image: url("../img/texture3.jpg");
+}
+
+
+article.autores{
+	text-align: center;
+	line-height:120%;
+	
 	
 }
 
 footer{
 	text-align: right;
 	padding-right: 5px;
-	margin: auto;
 	border: solid;
 	border-color: #ffffff;
-	font-size: 25px;
+	font-size: 14px;
 	font-variant: small-caps;
 }
