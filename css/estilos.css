@@ -58,18 +58,6 @@ section#principal,aside,div{
 	width: 100%;
 
 }
-article{
-	/*background: #005883;*/
-	border-radius: 0em;
-    min-height: 140px;
-    padding: 0.25em;
-    text-align: justify;
-    border: solid;
-    width: 60%;
-    margin: auto;
-    margin-top: 1cm
-}
-
 
 
 aside{
@@ -202,7 +190,7 @@ video{
 	width: 900px;
 	min-height: 400px;
 }
-article#historia,article#estaticas,article#dinamicas,article#pruebas{
+article{
 
 	border-radius: 0em;
 	min-height: 140px;
@@ -213,11 +201,15 @@ article#historia,article#estaticas,article#dinamicas,article#pruebas{
 	margin: auto;
 	margin-top: 1em;
 	padding: 10px;
-	
+	background-image: url("../img/texture3.jpg");
 }
 
-article#pruebas {
-	background-image: url("../img/texture3.jpg");
+
+article#autores{
+	text-align: center;
+	line-height:120%;
+	
+	
 }
 
 footer{
