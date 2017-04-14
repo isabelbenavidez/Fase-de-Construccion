@@ -60,10 +60,14 @@ section#principal,aside,div{
 }
 article{
 	/*background: #005883;*/
-	border-radius: 0.5em;
-	min-height: 140px;
-	padding: 0.25em;
-	text-align: justify;
+	border-radius: 0em;
+    min-height: 140px;
+    padding: 0.25em;
+    text-align: justify;
+    border: solid;
+    width: 60%;
+    margin: auto;
+    margin-top: 1cm
 }
 
 
@@ -75,12 +79,88 @@ nav{
 	text-align: left;
 	background: #005883;
 	padding-left: 5px;
+	padding-top: 10px;
 	width: 1000px;
-	height: 70px;
+	height: 45px;
 	border: solid;
 	border-color: #ffffff;
 	border-radius-left: 10;
 }
+
+
+#primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color: #F0B429;
+	text-decoration:none;
+	font-weight:700;
+	font-size:17px;
+	line-height:32px;
+	padding:0 15px;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background: #005883;
+	padding:0;
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px;
+	border: 1px solid;
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+
+
+
+
+
 figure{
 	text-align: left;
 	color: #005883;
@@ -146,6 +226,6 @@ footer{
 	margin: auto;
 	border: solid;
 	border-color: #ffffff;
-	font-size: 25px;
+	font-size: 14px;
 	font-variant: small-caps;
 }
