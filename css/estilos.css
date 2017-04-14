@@ -205,7 +205,7 @@ article{
 }
 
 
-article#autores{
+article.autores{
 	text-align: center;
 	line-height:120%;
 	
@@ -215,7 +215,6 @@ article#autores{
 footer{
 	text-align: right;
 	padding-right: 5px;
-	margin: auto;
 	border: solid;
 	border-color: #ffffff;
 	font-size: 14px;
